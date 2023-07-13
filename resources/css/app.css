@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+    /* .categories a{
+        @apply inline-block
+    } */
+    *{
+        @apply box-border
+    }
+    [x-cloak]{
+    @apply !hidden
+    }
+}

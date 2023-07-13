@@ -1,0 +1,45 @@
+{{-- product details --}}
+
+{{-- 
+insert into product_details
+    (product_names_id,product_colors_id,product_sizes_id,price,image,created_at,updated_at) values
+    (27,1,2,523.00,"sleepwear.png",now(),now()),
+    (27,2,2,392.00,"sleepwear.png",now(),now()),
+    (27,3,2,402.00,"sleepwear.png",now(),now()),
+    (27,1,3,623.00,"sleepwear.png",now(),now()),
+    (27,2,3,419.00,"sleepwear.png",now(),now()),
+    (27,3,3,560.00,"sleepwear.png",now(),now()),
+    (27,1,4,413.00,"sleepwear.png",now(),now()),
+    (27,2,4,503.00,"sleepwear.png",now(),now()),
+    (27,3,4,403.00,"sleepwear.png",now(),now()),
+    (27,1,1,527.00,"sleepwear.png",now(),now()),
+    (27,2,1,502.00,"sleepwear.png",now(),now()),
+    (27,3,1,489.00,"sleepwear.png",now(),now()); 
+    --}}
+
+product product_names_id
+
+insert into product_names
+    (product_categories_id,name,created_at,updated_at) values
+    (2,'polo dress',now(),now()),
+    (2,'saree',now(),now()),
+    (2,'tank top',now(),now()),
+    (3,'baby kaftan',now(),now()),
+    (3,'baby pant',now(),now()),
+    (3,'shirt baby',now(),now()),
+    (4,'shoe',now(),now()),
+    (4,'sneakers',now(),now()),
+    (4,'boots',now(),now()),
+    (5,'printed shirt',now(),now()),
+    (5,'navy pant',now(),now()),
+    (5,'regular fit shirt',now(),now()),
+    (6,'bed',now(),now()),
+    (6,'sofa',now(),now()),
+    (6,'blankets',now(),now()),
+    (7,'bike light',now(),now()),
+    (7,'unisex sleeves',now(),now()),
+    (7,'help kit',now(),now()),
+    (8,'baby night shirt',now(),now()),
+    (8,'men night dress',now(),now()),
+    (8,'night shoe',now(),now());
+    
